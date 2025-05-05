@@ -47,7 +47,7 @@ const server = http.createServer((req, res) => {
         case '/projects':
             if (method === 'GET') {
                 res.writeHead(200, { 'Content-Type': 'text/plain'});
-                return res.end('Here are our awesom projects')
+                return res.end('Here are our awesome projects')
             }
             break;
 
